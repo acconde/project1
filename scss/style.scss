@@ -5,6 +5,13 @@
      animation: glow 1s ease-in-out infinite alternate;
 }
 
+#h1footer {
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+     animation: glow 1s ease-in-out infinite alternate;
+}
+
+
 @-webkit-keyframes glow {
     from {
       text-shadow: 0 0 10px #ffffff, 0 0 20px #ff0c92, 0 0 30px #ff0c92, 0 0 40px #ff0c92cd, 0 0 50px #ff0c92cd, 0 0 60px #ff0c92, 0 0 70px #ff0c92;
