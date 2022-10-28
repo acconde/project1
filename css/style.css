@@ -15,12 +15,12 @@
     }
 }
 
-li {
+nav li {
   border: none;
   transition: 0.5s;
 }
 
-li:hover {
+nav li:hover {
   border-radius: 10px;
   background-color: #ff0c92cd;
   color: white;
