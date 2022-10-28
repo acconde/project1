@@ -1,3 +1,5 @@
+
+/* Navbrand logo glow */
 #navBar {
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
@@ -6,9 +8,34 @@
 
 @-webkit-keyframes glow {
     from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #d0cee2, 0 0 40px #f4f2f3, 0 0 50px #ecdfe5, 0 0 60px #e8e8e8, 0 0 70px #f3f3f3;
+      text-shadow: 0 0 10px #ffffff, 0 0 20px #ff0c92, 0 0 30px #ff0c92, 0 0 40px #ff0c92cd, 0 0 50px #ff0c92cd, 0 0 60px #ff0c92cd, 0 0 70px #ff0c92;
     }
     to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #7d8dbd, 0 0 40px #99a2d1, 0 0 50px #8691d7, 0 0 60px #687aaa, 0 0 70px #8180db, 0 0 80px #5a73ef;
+      text-shadow: 0 0 20px #ff0c92, 0 0 30px #ff0c92, 0 0 40px #ff0c92cd, 0 0 50px #ff0c92cd, 0 0 60px #ff0c92cd, 0 0 70px #ff0c92cd, 0 0 80px #ff0c92cd;
     }
 }
+
+li {
+  border: none;
+  transition: 0.5s;
+}
+
+li:hover {
+  border-radius: 10px;
+  background-color: #ff0c92cd;
+  color: white;
+}
+
+
+#subsBtn {
+  border: white solid 0.5px;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+#subsBtn:hover {
+  border-radius: 10px;
+  background-color: #ff0c92cd;
+  color: white;
+
+
