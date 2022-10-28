@@ -7,10 +7,10 @@
 
 @-webkit-keyframes glow {
     from {
-      text-shadow: 0 0 10px #ffffff, 0 0 20px #ff0c92, 0 0 30px #ff0c92, 0 0 40px #ff0c92cd, 0 0 50px #ff0c92cd, 0 0 60px #ff0c92cd, 0 0 70px #ff0c92;
+      text-shadow: 0 0 10px #ffffff, 0 0 20px #ff0c92, 0 0 30px #ff0c92, 0 0 40px #ff0c92cd, 0 0 50px #ff0c92cd, 0 0 60px #ff0c92, 0 0 70px #ff0c92;
     }
     to {
-      text-shadow: 0 0 20px #ff0c92, 0 0 30px #ff0c92, 0 0 40px #ff0c92cd, 0 0 50px #ff0c92cd, 0 0 60px #ff0c92cd, 0 0 70px #ff0c92cd, 0 0 80px #ff0c92cd;
+      text-shadow: 0 0 50px #ff0c92, 0 0 30px #ff0c92, 0 0 40px #ff0c92cd, 0 0 50px #ff0c92cd, 0 0 60px #ff0c92cd, 0 0 500px #ff0c92cd, 0 0 80px #ff0c92cd;
     }
 }
 
@@ -24,7 +24,6 @@ nav li:hover {
   background-color: #ff0c92cd;
   color: white;
 }
-
 
 #subsBtn {
   border: white solid 0.5px;
