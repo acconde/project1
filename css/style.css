@@ -1,1 +1,14 @@
-/*# sourceMappingURL=style.css.map */
+#navBar {
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+     animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #d0cee2, 0 0 40px #f4f2f3, 0 0 50px #ecdfe5, 0 0 60px #e8e8e8, 0 0 70px #f3f3f3;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #7d8dbd, 0 0 40px #99a2d1, 0 0 50px #8691d7, 0 0 60px #687aaa, 0 0 70px #8180db, 0 0 80px #5a73ef;
+    }
+  }
