@@ -1,16 +1,9 @@
-/* Navbrand logo glow */
-#navBar {
+/* Navbrand and footer logo glow */
+#navBar,#h1footer {
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
      animation: glow 1s ease-in-out infinite alternate;
 }
-
-#h1footer {
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-     animation: glow 1s ease-in-out infinite alternate;
-}
-
 
 @-webkit-keyframes glow {
     from {
@@ -30,6 +23,7 @@ nav li:hover {
   border-radius: 10px;
   background-color: #ff0c92cd;
   color: white;
+  zoom: 110%;
 }
 
 #subsBtn {
