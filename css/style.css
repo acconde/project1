@@ -42,7 +42,8 @@ nav li:hover {
   }
 }
 #clients :hover {
-  zoom: 1.9;
+  zoom: 1.8;
+  transition: 0.5s;
 }
 
 #subsBtn {
@@ -53,6 +54,6 @@ nav li:hover {
 
 #subsBtn:hover {
   border-radius: 10px;
-  background-color: rgba(255, 12, 146, 0.8039215686);
+  background-color: rgba(139, 23, 87, 0.8039215686);
   color: white;
 }/*# sourceMappingURL=style.css.map */

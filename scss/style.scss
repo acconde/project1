@@ -51,7 +51,8 @@ nav li:hover {
 }
 
 #clients :hover {
-  zoom: 1.9;
+  zoom: 1.8;
+  transition: 0.5s;
 }
 
 #subsBtn {
@@ -62,6 +63,6 @@ nav li:hover {
 
 #subsBtn:hover {
   border-radius: 10px;
-  background-color: #ff0c92cd;
+  background-color: #8b1757cd;
   color: white;
 }
