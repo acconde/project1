@@ -4,6 +4,12 @@
   animation: glow 1s ease-in-out infinite alternate;
 }
 
+#clients img:hover {
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
 @-webkit-keyframes glow {
   from {
     text-shadow: 0 0 10px #ffffff, 0 0 20px #ff0c92, 0 0 30px #ff0c92, 0 0 40px rgba(255, 12, 146, 0.8039215686), 0 0 50px rgba(255, 12, 146, 0.8039215686), 0 0 60px #ff0c92, 0 0 70px #ff0c92;
@@ -41,11 +47,6 @@ nav li:hover {
     background-position: 200% center;
   }
 }
-#clients :hover {
-  zoom: 1.8;
-  transition: 0.5s;
-}
-
 #subsBtn {
   border: white solid 0.5px;
   color: #ffffff;
