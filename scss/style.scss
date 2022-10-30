@@ -1,4 +1,3 @@
-/* Navbrand and footer logo glow */
 #navBar,#h1footer {
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
@@ -24,6 +23,36 @@ nav li:hover {
   background-color: #ff0c92cd;
   color: white;
   zoom: 110%;
+}
+
+#headings {
+ background-image: linear-gradient(
+   -225deg,
+   #12190f 0%,
+   #185d9a 29%,
+   #ff0c92cd 67%,
+   #2600ff 100%
+ );
+ background-size: auto auto;
+ background-clip: border-box;
+ background-size: 200% auto;
+ color: #fff;
+ background-clip: text;
+ text-fill-color: transparent;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ animation: textclip 2s linear infinite;
+
+}
+
+@keyframes textclip {
+ to {
+   background-position: 200% center;
+ }
+}
+
+#clients :hover {
+  zoom: 1.9;
 }
 
 #subsBtn {
