@@ -1,1 +1,1 @@
-/*# sourceMappingURL=mediaquery.min.css.map */
+@media(min-width: 1024px){#landing{background-attachment:fixed}}@media(max-width: 768px){#landing{height:100vh}#landing h1{font-size:28px;line-height:36px}#landing h2{font-size:18px;line-height:24px;margin-bottom:30px}}@media(max-height: 500px){#landing{height:120vh}}/*# sourceMappingURL=mediaquery.min.css.map */

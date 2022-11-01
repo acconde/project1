@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"mediaquery.min.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/mediaquery.scss"],"names":[],"mappings":"AA4GA,0BACE,SACE,6BAIJ,yBACE,SACE,aAGF,YACE,eACA,iBAGF,YACE,eACA,iBACA,oBAIJ,0BACE,SACE","file":"mediaquery.min.css"}
