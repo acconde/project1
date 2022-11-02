@@ -1,10 +1,8 @@
-#navBar, #h1footer {
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+nav, footer {
+  background: #07266c;
 }
 
-#clients img:hover {
+#navBar, #h1footer {
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
@@ -92,8 +90,8 @@ nav li:hover {
 }
 
 #landing h1 span {
-  color: rgba(255, 12, 146, 0.8039215686);
-  text-shadow: 5px 5px 15px rgb(255, 255, 255);
+  color: #ffffff;
+  text-shadow: 5px 5px 15px rgb(255, 0, 183);
 }
 
 #landing h2 {
