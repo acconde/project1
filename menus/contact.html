@@ -50,57 +50,42 @@
     <!-- Nav End -->
     
     <section>
-      <h1 class="text-center" id="headings">
+      
+      <h1 class="text-center pt-3" id="headings">
         Contact us!
       </h1>
 
-      <form class="container-lg row g-3">
-        <div class="col-md-6">
-          <label for="inputEmail4" class="form-label">Email</label>
-          <input type="email" class="form-control" id="inputEmail4">
-        </div>
-        <div class="col-md-6">
-          <label for="inputPassword4" class="form-label">Password</label>
-          <input type="password" class="form-control" id="inputPassword4">
-        </div>
-        <div class="col-12">
-          <label for="inputAddress" class="form-label">Address</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-        </div>
-        <div class="col-12">
-          <label for="inputAddress2" class="form-label">Address 2</label>
-          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-        </div>
-        <div class="col-md-6">
-          <label for="inputCity" class="form-label">City</label>
-          <input type="text" class="form-control" id="inputCity">
-        </div>
-        <div class="col-md-4">
-          <label for="inputState" class="form-label">State</label>
-          <select id="inputState" class="form-select">
-            <option selected>Choose...</option>
-            <option>...</option>
-          </select>
-        </div>
-        <div class="col-md-2">
-          <label for="inputZip" class="form-label">Zip</label>
-          <input type="text" class="form-control" id="inputZip">
-        </div>
-        <div class="col-12">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="gridCheck">
-            <label class="form-check-label" for="gridCheck">
-              Check me out
-            </label>
+      <div class="container-md d-flex justify-content-center py-3">
+        <form action="" onsubmit="myFunction()">
+          <h3 class="text-light text-uppercase text-center py-3 ">Contact Form</h3>  
+          <div class="mb-3">
+            <label for="InputEmail1" class="form-label text-light">Email address</label>
+            <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text text-light">We'll never share your email with anyone else.</div>
           </div>
-        </div>
-        <div class="col-12">
-          <button type="submit" class="btn btn-primary">Sign in</button>
-        </div>
-      </form>
-
+          <div class="mb-3">
+            <textarea name="comments" id="comments" cols="41" rows="5" placeholder="Input your message"></textarea>
+          </div>
+            <div class="row g-2 p-1 pb-5">
+              <button type="submit" class="btn" id="pinkBtn">Submit</button>
+            </div>  
+        </form>
+      </div>
     </section>
 
+
+    <!-- Map start-->
+    <section>
+
+      <h1 class="text-center pt-5 pb-3" id="headings">
+        Visit us here!
+      </h1>
+
+        <div class="container mapouter mb-5"><div class="gmap_canvas"><iframe width="1080" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=6811%20giporlos&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/">divi discount</a><br><style>.mapouter{position:relative;text-align:center;height:500px;width:1080px;}</style><a href="https://www.embedgooglemap.net">embedgooglemap.net</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1080px;}</style></div></div>
+
+
+    </section>
+    <!-- map end -->
 
     <!-- Footer Start -->
 
@@ -224,7 +209,7 @@
     <!-- Chat API -->
     <script type="text/javascript">
       function myFunction() {
-      alert("Thanks for contacting us!");
+      alert("Your message has been sent");
       }
       var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
       (function(){

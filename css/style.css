@@ -2,6 +2,16 @@ nav, footer {
   background: #07266c;
 }
 
+form {
+  border-radius: 10px;
+  background-color: rgba(7, 37, 108, 0.862745098);
+  border: color rgb(255, 0, 149) 2px;
+  height: 450px;
+  width: 400px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 #navBar, #h1footer {
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
