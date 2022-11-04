@@ -113,7 +113,6 @@ nav li:hover {
 form {
   border-radius: 10px;
   background-color: rgba(7, 37, 108, 0.862745098);
-  border: color rgb(255, 0, 149) 2px;
   height: 500px;
   width: 400px;
   padding-left: 40px;
