@@ -2,16 +2,6 @@ nav, footer {
   background: #07266c;
 }
 
-form {
-  border-radius: 10px;
-  background-color: #07256cdc;
-  border: color rgb(255, 0, 149) 2px;
-  height: 450px;
-  width: 400px;
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
 #navBar,#h1footer {
       -webkit-animation: glow 1s ease-in-out infinite alternate;
       -moz-animation: glow 1s ease-in-out infinite alternate;
@@ -64,18 +54,6 @@ form {
   }
   }
 
-  #pinkBtn {
-    border: white solid 0.5px;
-    color: #ffffff;
-    transition: 0.5s;
-  }
-
-  #pinkBtn:hover {
-    border-radius: 10px;
-    background-color: #ff0c92db;
-    color: white;
-  }
-
   // Landing Page 
 
   #landing {
@@ -123,7 +101,35 @@ form {
   }
 
   // clients zoomin animation
+  #zoomin {
+    padding: 50px;
+    transition: transform .5s;
+  }
+
   #zoomin :hover {
-    transition: 0.5s;
-    zoom: 60%;
+    transform: scale(1.1);
   } 
+
+  #pinkBtn {
+    border: white solid 0.5px;
+    color: #ffffff;
+    transition: 0.5s;
+  }
+
+  #pinkBtn:hover {
+    border-radius: 10px;
+    background-color: #ff0c92db;
+    color: white;
+  }
+
+
+  form {
+    border-radius: 10px;
+    background-color: #07256cdc;
+    border: color rgb(255, 0, 149) 2px;
+    height: 500px;
+    width: 400px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
