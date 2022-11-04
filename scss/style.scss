@@ -129,6 +129,18 @@ background-image: linear-gradient(
   color: white;
 }
 
+#srvBtn {
+  border: rgb(77, 77, 77) solid 0.5px;
+  color: #000000;
+  transition: 0.5s;
+}
+
+#srvBtn:hover {
+  border-radius: 10px;
+  background-color: #ff0c92db;
+  color: white;
+}
+
 form {
   border-radius: 10px;
   background-color: #07256cdc;

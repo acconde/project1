@@ -118,6 +118,18 @@ nav li:hover {
   color: white;
 }
 
+#srvBtn {
+  border: rgb(77, 77, 77) solid 0.5px;
+  color: #000000;
+  transition: 0.5s;
+}
+
+#srvBtn:hover {
+  border-radius: 10px;
+  background-color: rgba(255, 12, 146, 0.8588235294);
+  color: white;
+}
+
 form {
   border-radius: 10px;
   background-color: rgba(7, 37, 108, 0.862745098);
