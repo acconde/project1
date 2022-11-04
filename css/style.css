@@ -94,8 +94,8 @@ nav li:hover {
 }
 
 .card-title:hover {
-  color: rgba(255, 12, 146, 0.8588235294);
-  text-shadow: 5px 5px 15px #ff00ae, 5px 5px 15px #ffffff;
+  color: rgba(255, 12, 146, 0.8039215686);
+  text-shadow: 5px 5px 15px #ffffff, 5px 5px 15px #f06de3;
 }
 
 #zoomin {

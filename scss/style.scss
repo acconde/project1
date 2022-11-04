@@ -104,12 +104,12 @@ background-image: linear-gradient(
 }
 
 .card-title:hover {
-  color: #ff0c92db  ;
-  text-shadow:5px 5px 15px #ff00ae, 5px 5px 15px #ffffff;
+  color: #ff0c92cd;
+  text-shadow:5px 5px 15px #ffffff, 5px 5px 15px #f06de3;
 }
 
 // clients/cards zoomin animation
-#zoomin { 
+#zoomin {   
   transition: transform .5s;
 }
 
