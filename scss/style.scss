@@ -99,6 +99,15 @@ background-image: linear-gradient(
   font-weight: 400;
 }
 
+.card-title { 
+  transition: transform .5s;
+}
+
+.card-title:hover {
+  color: #ff0c92db  ;
+  text-shadow:5px 5px 15px #ff00ae, 5px 5px 15px #ffffff;
+}
+
 // clients/cards zoomin animation
 #zoomin { 
   transition: transform .5s;
@@ -128,4 +137,3 @@ form {
   padding-left: 40px;
   padding-right: 40px;
 }
-  

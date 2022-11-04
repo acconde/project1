@@ -89,6 +89,15 @@ nav li:hover {
   font-weight: 400;
 }
 
+.card-title {
+  transition: transform 0.5s;
+}
+
+.card-title:hover {
+  color: rgba(255, 12, 146, 0.8588235294);
+  text-shadow: 5px 5px 15px #ff00ae, 5px 5px 15px #ffffff;
+}
+
 #zoomin {
   transition: transform 0.5s;
 }
